@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2">
+  <panorama id="node1">
+    <input levelingpitch="0" levelingroll="0" leveltilesize="510" width="3305" height="3305" overlap="1" levelbiashidpi="0.400" leveltileurl="tiles/Bundeena-pier-360-panorama-NSW-Australia/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="3305" height="3305" preload="0" predecode="0"/>
+      <level width="1652" height="1652" preload="0" predecode="0"/>
+      <level width="826" height="826" preload="0" predecode="0"/>
+      <level width="413" height="413" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-37.9307" pan="-180"/>
+      <max fov="120" tilt="37.9307" pan="180"/>
+    </view>
+    <userdata datetime="" comment="" title="" author="" longitude="" copyright="" description="" tags="Pano2VR5" latitude="" info="" source=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" backgroundcolor="0xffffff" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomfov="20" softedge="0" blendtime="1" zoomin="0" zoomout="0" zoomspeed="2" enabled="0" type="crossdissolve" zoomoutpause="1"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" hideabout="0" invertcontrol="1" contextfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedwheel="0" simulatemass="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" levelingroll="0" leveltilesize="510" width="400" height="400" overlap="1" levelbiashidpi="0.400" leveltileurl="tiles/image1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="400" height="400" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fov="120" tilt="90" pan="360"/>
+    </view>
+    <userdata datetime="" comment="" title="" author="" longitude="" copyright="" description="" tags="Pano2VR5" latitude="" info="" source=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundalpha="1" backgroundcolor="0xffffff" border="1" borderradius="1" width="180" height="20" textcolor="0x000000" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" textalpha="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomfov="20" softedge="0" blendtime="1" zoomin="0" zoomout="0" zoomspeed="2" enabled="0" type="crossdissolve" zoomoutpause="1"/>
+    <control lockedkeyboard="0" invertwheel="0" speedwheel="1" hideabout="0" invertcontrol="1" contextfullscreen="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedwheel="0" simulatemass="1" sensitivity="8"/>
+  </panorama>
+</tour>
